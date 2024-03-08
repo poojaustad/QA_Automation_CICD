@@ -1,0 +1,26 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Test Automation Framework">
+	<test name="Automation Test" parallel="classes" thread-count="2">
+<!-- 		<groups> -->
+<!-- 			<run> -->
+<!-- 				<exclude name="regression" /> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+		<classes>
+
+			<class
+				name="automation.TestAutomationFramework.test.FlightBookingTest_TC101" />
+			<class
+				name="automation.TestAutomationFramework.test.RegistrationTest_TC201" />
+			<class
+				name="automation.TestAutomationFramework.test.RegistrationTest_TC202" />
+			<class
+				name="automation.TestAutomationFramework.test.LoginTest_TC301" />
+			<class
+				name="automation.TestAutomationFramework.test.LoginTest_TC302" />
+		</classes>
+	</test>
+</suite>

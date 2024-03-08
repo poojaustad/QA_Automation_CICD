@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation Framework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Automation Test(failed)">
+    <classes>
+      <class name="automation.TestAutomationFramework.test.RegistrationTest_TC202">
+        <methods>
+          <include name="registerUser_InvalidCase"/>
+          <include name="setUp"/>
+          <include name="destroyDriver"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.RegistrationTest_TC202 -->
+      <class name="automation.TestAutomationFramework.test.FlightBookingTest_TC101">
+        <methods>
+          <include name="setUp"/>
+          <include name="OneWayBusinessClassFlightBooking"/>
+          <include name="destroyDriver"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.FlightBookingTest_TC101 -->
+      <class name="automation.TestAutomationFramework.test.LoginTest_TC301">
+        <methods>
+          <include name="setUp"/>
+          <include name="destroyDriver"/>
+          <include name="ValidLogin"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.LoginTest_TC301 -->
+      <class name="automation.TestAutomationFramework.test.LoginTest_TC302">
+        <methods>
+          <include name="setUp"/>
+          <include name="InvalidLogin"/>
+          <include name="destroyDriver"/>
+        </methods>
+      </class> <!-- automation.TestAutomationFramework.test.LoginTest_TC302 -->
+    </classes>
+  </test> <!-- Automation Test(failed) -->
+</suite> <!-- Failed suite [Test Automation Framework] -->

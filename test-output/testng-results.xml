@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T14:07:14 GST" name="Test Automation Framework" finished-at="2022-08-09T14:08:24 GST" duration-ms="69822">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest_TC301.ValidLogin()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC301@3f197a46]" name="ValidLogin" class="automation.TestAutomationFramework.test.LoginTest_TC301"/>
+        <method signature="LoginTest_TC302.InvalidLogin()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC302@636be97c]" name="InvalidLogin" class="automation.TestAutomationFramework.test.LoginTest_TC302"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-08-09T14:07:14 GST" name="Automation Test" finished-at="2022-08-09T14:08:24 GST" duration-ms="69822">
+      <class name="automation.TestAutomationFramework.test.LoginTest_TC301">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC301@3f197a46]" started-at="2022-08-09T14:07:28 GST" name="setUp" finished-at="2022-08-09T14:07:29 GST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidLogin()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC301@3f197a46]" started-at="2022-08-09T14:07:29 GST" name="ValidLogin" finished-at="2022-08-09T14:07:40 GST" duration-ms="10503" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input name="submit" type="submit" src="images/submit.gif" width="60" height="23" border="0"> is not clickable at point (394, 639). Other element would receive the click: <iframe frameborder="0" src="https://12a21f5d4b3cc0ac509e6f0e78991913.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="" height="" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;" data-load-complete="true"></iframe>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [772a82f7ca6b2641a7f69008f5869d5c, clickElement {id=968f2757-6e85-4d09-8889-96e8a2f43393}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50945/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (772a82f7ca6b2641a7f69008f5869d5c)] -> xpath: //input[@type='submit']]
+Session ID: 772a82f7ca6b2641a7f69008f5869d5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input name="submit" type="submit" src="images/submit.gif" width="60" height="23" border="0"> is not clickable at point (394, 639). Other element would receive the click: <iframe frameborder="0" src="https://12a21f5d4b3cc0ac509e6f0e78991913.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="" height="" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;" data-load-complete="true"></iframe>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [772a82f7ca6b2641a7f69008f5869d5c, clickElement {id=968f2757-6e85-4d09-8889-96e8a2f43393}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50945/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (772a82f7ca6b2641a7f69008f5869d5c)] -> xpath: //input[@type='submit']]
+Session ID: 772a82f7ca6b2641a7f69008f5869d5c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at automation.TestAutomationFramework.pageObjects.LoginPage.UserSignOn(LoginPage.java:36)
+at automation.TestAutomationFramework.test.LoginTest_TC301.ValidLogin(LoginTest_TC301.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC301@3f197a46]" started-at="2022-08-09T14:07:40 GST" name="destroyDriver" finished-at="2022-08-09T14:07:40 GST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- automation.TestAutomationFramework.test.LoginTest_TC301 -->
+      <class name="automation.TestAutomationFramework.test.FlightBookingTest_TC101">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.FlightBookingTest_TC101@1139b2f3]" started-at="2022-08-09T14:07:14 GST" name="setUp" finished-at="2022-08-09T14:07:16 GST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OneWayBusinessClassFlightBooking()[pri:0, instance:automation.TestAutomationFramework.test.FlightBookingTest_TC101@1139b2f3]" started-at="2022-08-09T14:07:16 GST" name="OneWayBusinessClassFlightBooking" finished-at="2022-08-09T14:07:21 GST" duration-ms="4631" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad17b2ec56ba2ce97ede858a5239f4e5, clickElement {id=63a41f55-f679-45de-af00-37ba67c2c27e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50710/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad17b2ec56ba2ce97ede858a5239f4e5)] -> link text: Flights]
+Session ID: ad17b2ec56ba2ce97ede858a5239f4e5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad17b2ec56ba2ce97ede858a5239f4e5, clickElement {id=63a41f55-f679-45de-af00-37ba67c2c27e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50710/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad17b2ec56ba2ce97ede858a5239f4e5)] -> link text: Flights]
+Session ID: ad17b2ec56ba2ce97ede858a5239f4e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at automation.TestAutomationFramework.pageObjects.FlightBookingPage.Flight_Oneway_Business_Booking(FlightBookingPage.java:41)
+at automation.TestAutomationFramework.test.FlightBookingTest_TC101.OneWayBusinessClassFlightBooking(FlightBookingTest_TC101.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneWayBusinessClassFlightBooking -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.FlightBookingTest_TC101@1139b2f3]" started-at="2022-08-09T14:07:21 GST" name="destroyDriver" finished-at="2022-08-09T14:07:21 GST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- automation.TestAutomationFramework.test.FlightBookingTest_TC101 -->
+      <class name="automation.TestAutomationFramework.test.LoginTest_TC302">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC302@636be97c]" started-at="2022-08-09T14:07:40 GST" name="setUp" finished-at="2022-08-09T14:07:41 GST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidLogin()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC302@636be97c]" started-at="2022-08-09T14:07:41 GST" name="InvalidLogin" finished-at="2022-08-09T14:08:24 GST" duration-ms="43032" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Login Successfully']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd10a0e324d835ca045bb7a5bb32e52a, findElement {using=xpath, value=//h3[text()='Login Successfully']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd10a0e324d835ca045bb7a5bb32e52a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[text()='Login Successfully']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd10a0e324d835ca045bb7a5bb32e52a, findElement {using=xpath, value=//h3[text()='Login Successfully']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd10a0e324d835ca045bb7a5bb32e52a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at automation.TestAutomationFramework.pageObjects.LoginPage.UserSignOn(LoginPage.java:37)
+at automation.TestAutomationFramework.test.LoginTest_TC302.InvalidLogin(LoginTest_TC302.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.LoginTest_TC302@636be97c]" started-at="2022-08-09T14:08:24 GST" name="destroyDriver" finished-at="2022-08-09T14:08:24 GST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- automation.TestAutomationFramework.test.LoginTest_TC302 -->
+      <class name="automation.TestAutomationFramework.test.RegistrationTest_TC202">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC202@5e82df6a]" started-at="2022-08-09T14:07:21 GST" name="setUp" finished-at="2022-08-09T14:07:22 GST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser_InvalidCase()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC202@5e82df6a]" started-at="2022-08-09T14:07:22 GST" name="registerUser_InvalidCase" finished-at="2022-08-09T14:07:28 GST" duration-ms="5679" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [985e23032c9c2f7a5f7af420724be27f, clickElement {id=fd14fdb3-1d23-4788-89e5-d047ae1769fb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50842/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (985e23032c9c2f7a5f7af420724be27f)] -> xpath: //input[@name='submit']]
+Session ID: 985e23032c9c2f7a5f7af420724be27f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-UENAQ44', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [985e23032c9c2f7a5f7af420724be27f, clickElement {id=fd14fdb3-1d23-4788-89e5-d047ae1769fb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50842/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (985e23032c9c2f7a5f7af420724be27f)] -> xpath: //input[@name='submit']]
+Session ID: 985e23032c9c2f7a5f7af420724be27f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at automation.TestAutomationFramework.pageObjects.Register.userRegistration(Register.java:50)
+at automation.TestAutomationFramework.test.RegistrationTest_TC202.registerUser_InvalidCase(RegistrationTest_TC202.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser_InvalidCase -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC202@5e82df6a]" started-at="2022-08-09T14:07:28 GST" name="destroyDriver" finished-at="2022-08-09T14:07:28 GST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- automation.TestAutomationFramework.test.RegistrationTest_TC202 -->
+      <class name="automation.TestAutomationFramework.test.RegistrationTest_TC201">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:14 GST" name="setUp" finished-at="2022-08-09T14:07:16 GST" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:16 GST" name="userRegistration" data-provider="testData" finished-at="2022-08-09T14:07:28 GST" duration-ms="11515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pooja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[854721]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pooja@test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pooj]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:28 GST" name="destroyDriver" finished-at="2022-08-09T14:07:29 GST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:29 GST" name="setUp" finished-at="2022-08-09T14:07:30 GST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:30 GST" name="userRegistration" data-provider="testData" finished-at="2022-08-09T14:07:41 GST" duration-ms="11327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prajeesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prajee@test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[85746]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[prajee]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method is-config="true" signature="destroyDriver()[pri:0, instance:automation.TestAutomationFramework.test.RegistrationTest_TC201@7a69b07]" started-at="2022-08-09T14:07:41 GST" name="destroyDriver" finished-at="2022-08-09T14:07:41 GST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- automation.TestAutomationFramework.test.RegistrationTest_TC201 -->
+    </test> <!-- Automation Test -->
+  </suite> <!-- Test Automation Framework -->
+</testng-results>
